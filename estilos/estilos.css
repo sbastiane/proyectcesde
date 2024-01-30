@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+body {
+    background-color: azure;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    margin: 50px 50px;
+    padding: 50px 50px;
+}
+
+
+.container-fluid{
+    background-color: white !important;
+    
+    padding: 50px;
+}
+
+.nav-item{
+    float:right;
+}
+.quienes_somos{
+    color: #EE2B7B;
+    text-align: center;
+}
+
+.carousel-indicators button {
+    background: white !important;
+    width: 50px !important;
+    display: inline-block;
+    border: solid 2px white;
+    height: 18px;
+    opacity: 1;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 0;
+    border-radius: 50px;
+    transition: 0.3s;
+    box-shadow: 0 0px 7px 0px #000000ba;
+
+}
+
+header ul li{
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.parrafos {
+    margin:  50px 50px;
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+}
+
+button.btn-primary{
+    background-color: #ee2b7b;
+    color: white;
+    border-color:#ee2b7b ;
+}
+
+
+
+.formularios{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+.formularios input{
+    margin: 0px;
+}
+
+.politica{
+    float: left;
+} 
+
+
+.form-check-label{
+    float: left;
+    
+}
+
+.rosadas{
+    color: #ee2b7b;
+}
+
+div #nav-tabContent{
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+input{
+    background: transparent;
+    color: #ee2b7b;
+}
+
+
+
+.form-check-label{
+    color: gray;
+}
+
+.formularios.nav nav-tabs.tab-content{
+    text-align: center;
+}
+
+#nav-profile-tab{
+    color: #ee2b7b;
+}
+
+#nav-home-tab{
+    color: #ee2b7b;
+}
+
+.nav-link active-color {
+    color: black;
+}
+
+.botonEnviar {
+    background-color: #EE2B7B;
+    color: white;
+    padding: 0;
+    border-radius: 5px;
+    font-size: 20px; 
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-color: #EE2B7B;
+    box-shadow: none;
+}
+
+.convocatorias{
+    font-size:38px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background:#707070;
+}
+
+#carouselExampleIndicators{
+    margin-bottom:50px ;
+}
+footer{
+    background: url(../../exportes/footer-cesde1.png) left top;
+    border-top: 3px solid #555555;
+    padding: 30px 0 40px 0;
+    margin-top: -80x;
+    background-image: url(../imagenes/fondo.png);
+    text-align: left;
+}
+    
+.informacionGeneral{
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin: 11px 0 9px;
+}
+
+.docentes{
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin: 11px 0 9px;
+}
+
+
+.parrafito{
+    color: #868686;
+}
+
+.informacionGeneral{
+    color: #EE2B7B;
+    border-bottom: #dee2e6;
+}
+
+.docentes{
+    color: #EE2B7B;
+}
+
+.politica{
+    box-sizing: border-box;
+    font-family: "open sans",sans-serif!important;
+    font-weight: 400;
+    color: #fff;
+}
+
+li{
+    overflow:hidden ;
+color: #dee2e6;    
+}
+.lineaBaja{list-style-position: inside;
+    font-size: 100%;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    text-indent: -0.5em;
+    border-bottom: 1px solid #444;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+.lista{
+    padding-left: 0;
+    list-style-type: none;
+    
+}
+
+/* estilos de la parte de las tec a implentar*/
+.cont_front{
+    background-color: #dad3d3;
+    width: 100%;
+    margin: 25px 0%;
+}
+
+.t_front{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.box{
+    background-color: #dee2e6;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+.html{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/html.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
+.html_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.html_desc{
+    color:white;
+    padding: 15px;
+}
+
+.css{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/css.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
+.css_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.css_desc{
+    color:white;
+    padding: 15px;
+}
+
+.js{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/JavaScript-logo.png);
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
+.js_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.js_desc{
+    color:white;
+    padding: 15px;
+}
+
+.ang{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/angular.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
+.ang_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.ang_desc{
+    color:white;
+    padding: 15px;
+}
+
+.react{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/react.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.react_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.react_desc{
+    color:white;
+    padding: 15px;
+}
+
+.cont_back{
+    background-color: #dad3d3;
+    width: 100%;
+    margin: 25px 0%;
+}
+
+.t_back{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.java{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/java.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.java_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.java_desc{
+    color:white;
+    padding: 15px;
+}
+
+.spring{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/spring.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.spring_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.spring_desc{
+    color:white;
+    padding: 15px;
+}
+
+.t_datbase{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_datbase{
+    background-color: #dad3d3;
+    width: 100%;
+    margin: 25px 0%;
+}
+
+.mysql{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/mysql.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.mysql_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.mysql_desc{
+    color:white;
+    padding: 15px;
+}
+
+.sqlserver{
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../imagenes/sqlserver.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.sqlserver_til{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.sqlserver_desc{
+    color:white;
+    padding: 15px;   
+}
